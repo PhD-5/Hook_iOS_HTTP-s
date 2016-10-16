@@ -1,5 +1,5 @@
 %hook NSURLConnection
-NSString * hook_connection_url_to = @"https://www.baidu.com";
+NSString * hook_connection_url_to = @"https://kyfw.12306.cn/otn/regist/init";
 
 + (void)sendAsynchronousRequest:(NSURLRequest*) request
 queue:(NSOperationQueue*) queue

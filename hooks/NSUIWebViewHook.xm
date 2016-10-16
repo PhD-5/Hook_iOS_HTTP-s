@@ -1,5 +1,5 @@
 %hook UIWebView
-NSString * hook_uiwebview_url_to = @"https://www.baidu.com";
+NSString * hook_uiwebview_url_to = @"https://kyfw.12306.cn/otn/regist/init";
     
 - (void)loadRequest:(NSURLRequest *)request
 {
