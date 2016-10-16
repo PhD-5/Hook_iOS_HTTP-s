@@ -1,0 +1,3 @@
+%hook NSURLConnection
+
+%end
