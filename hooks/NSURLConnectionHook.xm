@@ -1,5 +1,5 @@
 %hook NSURLConnection
-NSString * hook_connection_url_to = @"https://kyfw.12306.cn/otn/regist/init";
+#define hook_connection_url_to @"https://192.168.2.74/URLConnection.html";
 
 + (void)sendAsynchronousRequest:(NSURLRequest*) request
 queue:(NSOperationQueue*) queue

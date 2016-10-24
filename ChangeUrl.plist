@@ -1,7 +1,6 @@
 {
 	Filter = {
 		Bundles = (
-			"com.softsec.yujianbo.VulApp",
 			"com.sgccGdt.PockPower",
 			"com.apple.AppStore",
 		);
