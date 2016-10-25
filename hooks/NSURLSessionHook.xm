@@ -1,5 +1,5 @@
 %hook NSURLSession
-NSString * hook_session_url_to = @"https://www.baidu.com";
+#define hook_session_url_to @"https://192.168.2.74/URLSession.html"
 
 - (id)dataTaskWithRequest:(NSURLRequest *)request completionHandler:(id)completionHandler{
     NSLog(@"ChangeURL NSURLSessionHook:orig url:%@",[request URL]);
